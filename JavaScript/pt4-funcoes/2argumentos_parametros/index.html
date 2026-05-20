@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Argumentos e Parâmetros</title>
+  </head>
+  <body>
+    <h1>Argumentos e Parâmetros</h1>
+    <p>Imagine que uma função é como uma receita de bolo.</p>
+
+    <p>
+      <strong>Parâmetros:</strong> são os espaços na receita onde você escreve o
+      que precisa colocar.
+    </p>
+    <p>
+      <strong>Argumentos:</strong> são os ingredientes que você realmente coloca
+      quando faz o bolo.
+    </p>
+    <p>
+      Por exemplo, na receita você ode escrever: "coloque <em>fruta</em> e
+      <em>água</em>". Aqui <strong>fruta</strong> e <strong>água</strong> são
+      parâmetros. Quando você faz o suco de morango você coloca morangos e 200
+      ml de água. Esses valores são argumentos.
+    </p>
+    <p>Em JavaScript isso fica assim:</p>
+    <pre><code>function fazerSuco(fruta, agua){
+      console.log("Fazendo suco de " + fruta + "com" + agua + "ml de agua");
+    }
+
+    fazerSuco("morango", 200);
+  </code></pre>
+    <p>Aqui, <code>fruta</code> e <code>agua</code> são parâmetros.</p>
+    <p>Resumindo:
+      <ul><li><strong>Parâmetros </strong>são os nomes que a função usa para receber valores.</li>
+      <li><strong>Argumentos</strong> são os valores que você dá para a função quando chama ela.</li></ul>
+    </p>
+    <script src="scripts.js"></script>
+  </body>
+</html>
